@@ -1,0 +1,132 @@
+body{
+    background-color: #f2f2f2;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+
+  .center{
+    text-align: center;
+    padding: 50px;
+    
+  }
+  .box
+{
+    background-color: red;
+    color: white;
+    padding: 10px;
+}
+  .row{
+    color: blue;
+    padding: 10px;
+  }
+  .content{
+    margin: 50px;
+    text-align: center;
+    padding: 50px;
+  }
+  /* .left {
+    margin-top: 60px;
+   margin-left: 20%;
+    display: inline;
+    width: 49%;
+  }
+  .right {
+    display: inline-block;
+    width: 30%;
+  } */
+  
+   .flexxbox{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+    width: 60%;
+    
+  } 
+
+  
+
+  /* .left{
+    margin-left: 500px;
+  } */
+  .right{
+    display: inline-block;
+    position: relative;
+    margin-top:50px; 
+    /* margin-right: 430px; */
+    
+  }   
+
+  .fcontent{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55%;
+    gap: 3rem;
+  }
+  .items{
+       position: relative;
+       margin-top: 50px;
+       /* margin-left: 430px; */
+      
+  }
+  .fitems{
+         position: relative;
+         margin-top: 40px;
+         /* margin-right: 480px; */
+         margin-left: 20px;
+  }
+
+  .container{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    
+  }
+
+  .containerOne{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 40%;
+  }
+
+  /*.one, .two, .three, .four{
+    position: relative;
+    margin-top: 50px;
+    flex-direction: column;
+  }*/
+   
+  .one{
+    margin-left: 30px;
+    position: relative;
+    margin-top: 50px;
+    flex-direction: column;
+  }
+
+  .two{
+    margin-left: 30px;
+    position: relative;
+    margin-top: 50px;
+    flex-direction: column;
+  }
+
+  .three{
+    margin-left: 30px;
+    position: relative;
+    margin-top: 50px;
+    flex-direction: column;
+  }
+  .four{
+    margin-right: 30px;
+    position: relative;
+    margin-top: 50px;
+    flex-direction: column;
+  }
